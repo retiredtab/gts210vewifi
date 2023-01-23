@@ -26,8 +26,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths_wcd9330.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_wcd9330.xml
 
 # Display
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.surface_flinger.primary_display_orientation=ORIENTATION_270
+SF_PRIMARY_DISPLAY_ORIENTATION := 270
 
 # Grip Power
 PRODUCT_COPY_FILES += \
