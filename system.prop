@@ -10,7 +10,7 @@ ro.qualcomm.bluetooth.opp=true
 ro.qualcomm.bluetooth.pbap=true
 
 # Display
-ro.surface_flinger.primary_display_orientation=270
+ro.surface_flinger.primary_display_orientation=ORIENTATION_270
 
 # Radio
 ro.radio.noril=yes
